@@ -3,4 +3,6 @@ project(LintCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LintCode main.cpp Sort/Solution508/Solution508.cpp Sort/Solution508/Solution508.h)
+add_executable(LintCode main.cpp
+        Sort/Solution508/Solution508.cpp Sort/Solution508/Solution508.h
+        Bit/Solution001/Solution001.cpp Bit/Solution001/Solution001.h)
